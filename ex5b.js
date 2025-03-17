@@ -5,7 +5,25 @@
 */
 
 function isFishHere(fishes, fishToFind) {
+
+    return fishes.includes(fishToFind);
+
 }
+
+// fishes -> la lista de peces que nos pasan
+// fishToFind -> el pez que buscan
+
+// 1. Mostrar por console.log las variables fishes y fishToFind
+
+// 2. En ejercicio ex5.js hemos usado un método útil para saber si un elemento esta dentro de un array. ¿Podríamos aprovechar y usarlo también aquí dentro de la función?
+
+// let found = fishes.includes(fishToFind);
+
+// 3. Recordad que para que la función devuelve algo debe tener la palabra reservada "return". En este caso, debe devolver true o false, en funcion de si el fishToFind se encuentra en el array de fishes
+
+return found;
+
+// Tenemos que devolver true o false (en función de si fishToFind se encuentra en el array de fishes o no)
 
 // Conjunto de pruebas para isFishHere
 
